@@ -19,7 +19,7 @@ def sufficient(indicator):
 		result_color = colors.color.OKGREEN
 		os.system(getCommand(result_color))
 
-print ""
+print "\n%s\n" % parameters.parameter.TITLE
 
 needed = parameters.parameter.NEEDED
 state, out  = commands.getstatusoutput(parameters.parameter.COMMAND)
